@@ -1,0 +1,9 @@
+
+{% load static %}
+
+<form  method="post">
+  {%csrf_token%}
+  {{form}}
+
+   <button type="submit" name="btn btn-default">Submit</button>
+ </form>
